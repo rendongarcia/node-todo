@@ -48,6 +48,7 @@ const pause = () => {
             output: process.stdout
         });
 
+        console.log('\n');
         readline.question(`\nPress ${'ENTER'.highlight} to continue\n`, () => {
             readline.close();
             resolve();
